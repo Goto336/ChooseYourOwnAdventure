@@ -6,15 +6,15 @@ var game = {
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You awaken from your 100 year slumber in an unknown place. You see a glowing door appear before you. What do you?",
             choices: [
                 {
-                    text: "Enter the cave",
+                    text: "Get up and walk through the glowing door",
                     nextLevel: "cave",
                 },
 
                 {
-                    text: "Keep on moving",
+                    text: "Go back to sleep",
                     nextLevel: "field",
                 },
             ]
@@ -23,7 +23,7 @@ var game = {
         cave: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+            message: "You walk through the door and see two ways to go. Do you go left or right?",
             choices: [
                 {
                     text: "Start over",
@@ -33,7 +33,7 @@ var game = {
         },
 
         field: {
-            message: "Some adventurer you are...",
+            message: "You smart, but you lose",
             choices: [
                 {
                     text: "Start over",
