@@ -91,7 +91,7 @@ var game = {
         luckyroom: {
             background_image: "glow.gif",
             music: "Uncharted Mid.mp3",
-            message: "You see an glowing object on the floor. Do you pick it up?",
+            message: "You see a glowing object on the floor. Do you pick it up?",
             choices: [
                 {
                     text: "OBVIOUSLY!",
