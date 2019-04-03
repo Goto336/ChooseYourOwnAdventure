@@ -50,7 +50,7 @@ var game = {
         nightmare: {
             background_image: "giphy.gif",
             music: "Guardian Battle.mp3",
-            message: "You encounter your demon self and is chargering at you. What do you do?",
+            message: "You encounter your demon self and is charging at you. What do you do?",
             choices: [
                 {
                     text: "Face your fears",
@@ -120,7 +120,7 @@ var game = {
        goodmare: {
             background_image: "giphy.gif",
             music: "Guardian Battle.mp3",
-            message: "You encounter your demon self and is chargering at you. What do you do?",
+            message: "You encounter your demon self and is charging at you. What do you do?",
             choices: [
                 {
                     text: "COME AT ME BRO!",
