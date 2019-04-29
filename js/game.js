@@ -2,11 +2,23 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    background_image: "awaits.png",
     levels: {
 
         start: {
-            message: "You awaken from your 100 year slumber in an unknown place. You see a glowing door appear before you. What do you?",
+            message: "Hundred years ago, you were almost killed defending your kingdom. Thankfully one of your companions saved you and put you in a hypersleep machine deep inside a cave. 100 years later, you finally wake up. But unfortunately for you, a demon roams around this mysterious cave. Now you must go and escape. Can you make it out alive?",
+            choices: [
+                {
+                    text: "Click here to begin",
+                    nextLevel: "beginning",
+                },
+            ]
+        },
+
+    beginning: {
+        music: "Uncharted Start.mp3",
+         background_image: "intro-bg.jpg",
+            message: "You awaken from your 100 year slumber in an unknown place. You see a glowing door appear before you. What do you do?",
             choices: [
                 {
                     text: "Get up and walk through the glowing door",
@@ -42,7 +54,7 @@ var game = {
             choices: [
                 {
                     text: "Start over",
-                    nextLevel: "start",
+                    nextLevel: "beginning",
                 },
             ]
         },
@@ -71,7 +83,7 @@ var game = {
             choices: [
                 {
                     text: "Start over",
-                    nextLevel: "start",
+                    nextLevel: "beginning",
                 },
             ]
         },
@@ -83,7 +95,7 @@ var game = {
             choices: [
                 {
                     text: "Start over",
-                    nextLevel: "start",
+                    nextLevel: "beginning",
                 },
             ]
         },
@@ -112,7 +124,7 @@ var game = {
             choices: [
                 {
                     text: "Start over",
-                    nextLevel: "start",
+                    nextLevel: "beginning",
                 },
             ]
         },
@@ -141,7 +153,7 @@ var game = {
             choices: [
                 {
                     text: "Start over",
-                    nextLevel: "start",
+                    nextLevel: "beginning",
                 },
             ]
         },
